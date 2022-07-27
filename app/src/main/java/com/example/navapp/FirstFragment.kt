@@ -24,6 +24,7 @@ class FirstFragment : Fragment() {
         btnn1.setOnClickListener{
             findNavController().navigate(R.id.action_firstFragment_to_secondFragment)
         }
+
         return view
     }
 
